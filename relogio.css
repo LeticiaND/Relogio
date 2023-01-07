@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.posicionamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(149, 167, 223);
+    width: 100%;
+    height: 100vh;
+}
+
+.ponteiro{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(98, 137, 176);
+    border-radius: 50%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.valor {
+    color: white;
+    font-size: 45pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
